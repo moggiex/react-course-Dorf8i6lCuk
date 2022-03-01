@@ -8,6 +8,7 @@ import AllMeetupsPage from './pages/AllMeetups';
 import NewMeetupPage from './pages/NewMeetup';
 import FavouritesPage from './pages/Favourites';
 import NotFoundPage from './pages/NotFoundPage';
+import Layout from './components/Layout/Layout';
 
 // Components
 import MainNavigation from './components/Layout/MainNavigation';

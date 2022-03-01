@@ -1,7 +1,10 @@
 import Card from '../ui/Card';
 import classes from './MeetupList.module.css';
 
-const MeetUpItem = ({ image, title, address, description }) => {
+import Card from '../Ui/Card';
+
+function MeetupItem(props) {
+	// console.log(classes);
 	return (
 		<Card>
 			<li className={classes.item}>
@@ -19,6 +22,6 @@ const MeetUpItem = ({ image, title, address, description }) => {
 			</li>
 		</Card>
 	);
-};
+}
 
-export default MeetUpItem;
+export default MeetupItem;
